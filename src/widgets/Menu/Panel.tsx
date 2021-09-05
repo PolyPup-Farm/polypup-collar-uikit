@@ -48,10 +48,9 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-        <StyledImage>
-          <a href="https://rugdoc.io/project/polypup-ball/" target="_blank" rel="noreferrer"><img src="https://ball.polypup.finance/images/rugdoc-kycd.png" width="200px"/></a>
-          <a href="https://paladinsec.co/projects/polypup-layer-3/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px"/></a>
-        </StyledImage>
+      <StyledImage>
+        <a href="https://paladinsec.co/" target="_blank" rel="noreferrer"><img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.png" width="200px" /></a>
+      </StyledImage>
       <PanelFooter {...props} />
     </StyledPanel>
   );
