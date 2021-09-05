@@ -2402,9 +2402,7 @@ var Panel = function (props) {
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement(StyledImage, null,
-            React.createElement("a", { href: "https://rugdoc.io/project/polypup-ball/", target: "_blank", rel: "noreferrer" },
-                React.createElement("img", { src: "https://ball.polypup.finance/images/rugdoc-kycd.png", width: "200px" })),
-            React.createElement("a", { href: "https://paladinsec.co/projects/polypup-layer-3/", target: "_blank", rel: "noreferrer" },
+            React.createElement("a", { href: "https://paladinsec.co/", target: "_blank", rel: "noreferrer" },
                 React.createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" }))),
         React.createElement(PanelFooter, __assign({}, props))));
 };

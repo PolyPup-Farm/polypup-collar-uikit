@@ -2415,9 +2415,7 @@ var Panel = function (props) {
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
         React__default['default'].createElement(StyledImage, null,
-            React__default['default'].createElement("a", { href: "https://rugdoc.io/project/polypup-ball/", target: "_blank", rel: "noreferrer" },
-                React__default['default'].createElement("img", { src: "https://ball.polypup.finance/images/rugdoc-kycd.png", width: "200px" })),
-            React__default['default'].createElement("a", { href: "https://paladinsec.co/projects/polypup-layer-3/", target: "_blank", rel: "noreferrer" },
+            React__default['default'].createElement("a", { href: "https://paladinsec.co/", target: "_blank", rel: "noreferrer" },
                 React__default['default'].createElement("img", { src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.png", width: "200px" }))),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
