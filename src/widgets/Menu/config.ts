@@ -127,12 +127,17 @@ export const socials = [
         href: "https://t.me/PolyPupAnnouncement"
       }
     ]
-    
+
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/PolyPup1",
+  },
+  {
+    label: "Discord",
+    icon: "GroupsIcon",
+    href: "https://discord.gg/QJsYsdHVRA",
   },
 ];
 

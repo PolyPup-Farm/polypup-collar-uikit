@@ -2238,6 +2238,11 @@ var socials = [
         icon: "TwitterIcon",
         href: "https://twitter.com/PolyPup1",
     },
+    {
+        label: "Discord",
+        icon: "GroupsIcon",
+        href: "https://discord.gg/QJsYsdHVRA",
+    },
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
